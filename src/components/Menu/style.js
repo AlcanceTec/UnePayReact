@@ -9,6 +9,7 @@ export default {
         top: 0;
         border-radius: 0 20px 10px 0;
         display: flex;
+        flex-direction: column;
     `,
 
     Logo: styled.div`
@@ -17,5 +18,45 @@ export default {
         margin-top: 49px;
         margin-left: 48px;
         background-color: #AEAEAE;
+    `,
+
+    itens: styled.div`
+        width: 200px;
+        height: 50px;
+        background-color: #9c9a9a;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        text-align: top;
+    `,
+
+    itensPhoto: styled.div`
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #AEAEAE;
+        margin-left: 30px;
+        
+    `,
+
+    itensText: styled.a`
+        text-align: center;
+        padding-left: 15px;
+        text-decoration: none;
+        color: #000;
+    `,
+
+    itensExit: styled.div`
+        width: 200px;
+        height: 50px;
+        background-color: #9c9a9a;
+        margin-top: 450px;
+        align-items: center;
+        text-align: top;
+        display: flex;
     `
+    
+
+
+
 };

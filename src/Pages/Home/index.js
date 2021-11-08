@@ -7,7 +7,7 @@ function Home() {
     return (
         <C.Container>
             <Menu/>
-            teste
+            
         </C.Container>
     );
 }
