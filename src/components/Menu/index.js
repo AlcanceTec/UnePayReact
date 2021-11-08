@@ -21,6 +21,7 @@ function Menu () {
                 <C.itensPhoto></C.itensPhoto>
                 <C.itensText href="http://google.com.br">Home</C.itensText>
             </C.itens>
+            <C.menuButton>teste</C.menuButton>
             <C.itens>
                 <C.itensPhoto></C.itensPhoto>
                 <C.itensText href="http://google.com.br">Home</C.itensText>
