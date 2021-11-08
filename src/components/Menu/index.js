@@ -1,47 +1,21 @@
-import C from './style';
+import React, {useState} from 'react';
+import './style.css';
 
-function Menu () {
+export default() => {
+
+    const [open, setOpen] = useState(false);
+
+    const MenuToggle =  ()=> {
+        setOpen(!open);
+
+    }
+
     return (
-        <C.Container>
-            <C.Logo>LOGO</C.Logo>
+        <div className="Container">
+          
             
-            <C.itens>
-                <C.itensPhoto></C.itensPhoto>
-                <C.itensText href="http://google.com.br">Home</C.itensText>
-            </C.itens>
-            <C.itens>
-                <C.itensPhoto></C.itensPhoto>
-                <C.itensText href="http://google.com.br">Home</C.itensText>
-            </C.itens>
-            <C.itens>
-                <C.itensPhoto></C.itensPhoto>
-                <C.itensText href="http://google.com.br">Home</C.itensText>
-            </C.itens>
-            <C.itens>
-                <C.itensPhoto></C.itensPhoto>
-                <C.itensText href="http://google.com.br">Home</C.itensText>
-            </C.itens>
-            <C.menuButton>teste</C.menuButton>
-            <C.itens>
-                <C.itensPhoto></C.itensPhoto>
-                <C.itensText href="http://google.com.br">Home</C.itensText>
-            </C.itens>
-            <C.itens>
-                <C.itensPhoto></C.itensPhoto>
-                <C.itensText href="http://google.com.br">Home</C.itensText>
-            </C.itens>
-            <C.itens>
-                <C.itensPhoto></C.itensPhoto>
-                <C.itensText href="http://google.com.br">Home</C.itensText>
-            </C.itens>
-            <C.itensExit>
-                <C.itensPhoto></C.itensPhoto>
-                <C.itensText href="http://google.com.br">Sair</C.itensText>
-            </C.itensExit>
 
                         
-        </C.Container>
+        </div>
     )
 }
-
-export default Menu;
