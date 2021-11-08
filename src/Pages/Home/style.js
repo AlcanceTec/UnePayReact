@@ -31,14 +31,58 @@ export default {
         border: none;
     `,
     ItemFilter: styled.div`
-        width: 160px;
+        width: 145px;
         height: 80px;
         border-right: 1px solid #9D9D9D;
         text-align: left;
-        margin: 0 20px 0 0;
+        margin: 0 5px 0 0;
 
-        &:nth-child(4) {
+        &:nth-child(5) {
             border-right: 0;
         }
-    `
+    `,
+    Select: styled.select`
+        width: 110px;
+        background-color: transparent;
+        border: none;
+    `,
+    Input: styled.input`
+        background-color: transparent;
+        border: none;
+    `,
+    Option: styled.option`
+        
+    `,
+
+    FilterText: styled.div`
+        position: absolute;
+        top: 62px;
+        left: 850px;
+        color: #000;
+        font-family: Roboto;
+    `,
+
+    Profile: styled.div`
+        position: absolute;
+        display: flex;
+        top: 62px;
+        right: 600px;
+        align-items: center;
+    `,
+
+    ProfileName: styled.text`
+        color: #000;
+        font-size: 22px;
+        font-family: Roboto;
+        font-weight: 400;
+    `,
+
+    ProfilePhoto: styled.div`
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #AEAEAE;
+    margin-left: 10px;
+    
+`,
 }
