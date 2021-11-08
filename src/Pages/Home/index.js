@@ -49,6 +49,18 @@ function Home() {
                         Aplicar
                     </C.ApplyButton>
                 </C.Filter>
+                <C.Chart>
+
+                </C.Chart>
+                <C.ChartMini>
+
+                </C.ChartMini>
+                <C.Chart>
+
+                </C.Chart>
+                <C.ChartMinis>
+                    
+                </C.ChartMinis>
             </C.Content>
         </C.Container>
     );

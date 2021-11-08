@@ -78,11 +78,36 @@ export default {
     `,
 
     ProfilePhoto: styled.div`
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #AEAEAE;
-    margin-left: 10px;
-    
-`,
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #AEAEAE;
+        margin-left: 10px;
+    `,
+    Chart: styled.div`
+        width: 649px;
+        height: 450px;
+        background-color: #C4C4C4;
+        border-radius: 50px;
+        margin-left: 50px;
+        margin-top: 100px;
+        float: left;
+    `,
+
+    ChartMini: styled.div`
+        width: 399px;
+        height: 350px;
+        background-color: #C4C4C4;
+        border-radius: 50px;
+        margin-left: 800px;
+        margin-top: 100px;
+    `,
+    ChartMinis: styled.div`
+        width: 399px;
+        height: 350px;
+        background-color: #C4C4C4;
+        border-radius: 50px;
+        margin-left: 800px;
+        margin-top: 200px;
+    `,
 }
