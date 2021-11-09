@@ -101,13 +101,84 @@ export default {
         border-radius: 50px;
         margin-left: 800px;
         margin-top: 100px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    `,
+    ChartMiniText: styled.text`
+        font-size: 20px;
+        margin-bottom: 20px;
+    `,
+    ChartMiniItem: styled.div`
+        width: 300px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    `,
+    ChartMiniIcon: styled.div`
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        background-color: #55DD11;
+        margin: 10px;
+    `,
+    ChartMiniList: styled.text`
+        
+    `,
+    ChartMiniGroup: styled.div`
+        width: 300px;
+        height: 50px;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 10px;
+    `,
+    ChartMiniTitle: styled.text`
+        margin-left: 10px;
+    `,
+    ChartMiniProgress: styled.div`
+        border: 3px solid #55DD11;
+        width: 50px;
+        margin-left: 10px;
     `,
     ChartMinis: styled.div`
-        width: 399px;
-        height: 350px;
+        width: 400px;
+        height: 450px;
         background-color: #C4C4C4;
         border-radius: 50px;
         margin-left: 800px;
         margin-top: 200px;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    `,
+    ChartMinisText: styled.text`
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 20px;
+    `,
+    ChartMinisItem: styled.div`
+        width: 300px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+    `,
+    ChartMinisIcon: styled.div`
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        background-color: #DDD;
+        margin-right: 10px;
+    `,
+    ChartMinisList: styled.text`
+        
     `,
 }
