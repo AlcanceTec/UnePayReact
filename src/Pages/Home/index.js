@@ -38,13 +38,15 @@ function Home() {
         <C.Container>
             <Menu/>
             <C.Content>
-                <C.FilterText>
-                    Filtro
-                </C.FilterText>
-                <C.Profile>
-                    <C.ProfileName>Olá Fulano</C.ProfileName>
-                    <C.ProfilePhoto></C.ProfilePhoto>
-                </C.Profile>
+                <C.Header>
+                    <C.FilterText>
+                        Filtro
+                    </C.FilterText>
+                    <C.Profile>
+                        <C.ProfileName>Olá Fulano</C.ProfileName>
+                        <C.ProfilePhoto></C.ProfilePhoto>
+                    </C.Profile>
+                </C.Header>
                 <C.Filter>
                     <C.ItemFilter>
                         De

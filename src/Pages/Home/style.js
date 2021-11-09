@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export default {
     Container: styled.div`
         background-color: #F3F3F3;
-        width: 1440px;
+        max-width: 1440px;
         height: 1420px;
         margin: auto;
         display: flex;
@@ -15,7 +15,7 @@ export default {
         background-color: #C4C4C4;
         width: 900px;
         height: 100px;
-        margin-top: 101px;
+        margin-top: 30px;
         margin-left: 50px;
         border-radius: 50px;
         display: flex;
@@ -54,19 +54,32 @@ export default {
         
     `,
 
+    Header: styled.div`
+        width: 1200px;
+        height: 60px;
+        z-index: 999;
+        display:flex;
+        margin-top: 80px;
+        float: right;
+        margin-bottom: 5px;
+        align-items: center
+    `,
+
     FilterText: styled.div`
-        position: absolute;
+        position: arelative;
         top: 62px;
-        left: 850px;
+        padding-left: 60px;
         color: #000;
         font-family: Roboto;
+        flex: 1;
     `,
 
     Profile: styled.div`
-        position: absolute;
+        position: relative;
         display: flex;
-        top: 62px;
-        right: 600px;
+        left: 370px;
+        align-items: center;
+        flex: 1;
         align-items: center;
     `,
 
