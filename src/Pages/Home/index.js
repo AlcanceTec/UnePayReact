@@ -1,10 +1,31 @@
 import React from 'react';
 import Calendar from 'react-calendar';
+import { Doughnut, Bar } from 'react-chartjs-2';
 
 import C from './style';
 import Menu from '../../components/Menu';
 
 import 'react-calendar/dist/Calendar.css';
+
+const data = {
+    labels: ['Veículo 1', 'Veículo 2', 'Veículo 3', 'Veículo 4'],
+    datasets: [
+        {
+            label: 'Veículo 1',
+            data:[25],
+            backgroundColor: [
+                '#000',
+            ],
+        },
+        {
+            label: 'Veículo 2',
+            data:[50],
+            backgroundColor: [
+                '#BC3A3A',
+            ]
+        },
+    ]
+}
 
 function Home() {
     return (
@@ -50,7 +71,14 @@ function Home() {
                     </C.ApplyButton>
                 </C.Filter>
                 <C.Chart>
-
+                    <Bar
+                        data={data}
+                        width={1}
+                        height={1}
+                        options={{ 
+                            maintainAspectRatio: false,
+                        }}
+                    />
                 </C.Chart>
                 <C.ChartMini>
 
