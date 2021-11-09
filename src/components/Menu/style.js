@@ -48,6 +48,7 @@ export default {
         display: flex;
         flex-direction: column;
         transition: ${(props) => props.efect};
+        z-index: 9;
     `,
 
     iconButton1: styled.div`

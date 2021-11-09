@@ -49,13 +49,13 @@ function Home() {
                 </C.Header>
                 <C.Filter>
                     <C.ItemFilter>
-                        De
-                        <C.Input placeholder="Quando?" />
+                        De<br/>
+                        <C.Input placeholder="Quando?" type="date" />
                     </C.ItemFilter>
                     <C.ItemFilter>
-                        Até
-                        <C.Input placeholder="Quando?"/>
-                    </C.ItemFilter>
+                        Até<br/>
+                        <C.Input placeholder="Quando?" type="date"/>
+                        </C.ItemFilter>
                     <C.ItemFilter>
                         Motorista
                         <C.Select placeholder="Selecione">
